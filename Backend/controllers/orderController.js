@@ -12,7 +12,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 const placeOrder = async (req, res) => {
 
-    const frontend_url = "https://food-delivery-frontend-e2lj.onrender.com/";
+    const frontend_url = "https://food-delivery-frontend-e2lj.onrender.com";
 
     try {
 
